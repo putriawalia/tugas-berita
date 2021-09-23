@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Web Berita</title>
+</head>
+<!-- roboto -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link
+    href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,500;1,400;1,700&display=swap"
+    rel="stylesheet">
+<!-- lobster -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<!-- font awesome -->
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .container {
+        width: 100%;
+        height: 650px;
+        background-image: url("satu.jpg");
+        background-size: cover;
+        color: white;
+    }
+
+    .navbar {
+        width: 91%;
+        height: 60px;
+        /* box-shadow: 2px 2px 10px grey; */
+        display: flex;
+        align-items: center;
+        padding-left: 9%;
+        background-color: black;
+    }
+
+    .navbar p {
+        font-size: 25px;
+        font-family: 'Lobster', cursive;
+    }
+
+    .nav-link {
+        display: flex;
+        width: 200px;
+        justify-content: space-between;
+        position: absolute;
+        right: 9%;
+    }
+
+    .nav-link a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav-link a:hover {
+        color: gray;
+    }
+
+    .btn-here {
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        background-color: transparent;
+        border: 1px solid black;
+        font-size: 11px;
+    }
+
+    .btn-download {
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 11px;
+    }
+
+    .about {
+        width: 90%;
+        background-color: white;
+        box-shadow: 2px 2px 10px grey;
+        margin: -2% auto 20px;
+        position: relative;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        box-sizing: border-box;
+        padding-right: 200px;
+    }
+
+    .about2 {
+        width: 90%;
+        background-color: white;
+        box-shadow: 2px 2px 10px grey;
+        margin: 5% auto 20px;
+        position: relative;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+        padding-right: 200px;
+    }
+
+    .about img {
+        height: 250px;
+        margin: 30px;
+    }
+
+    .text-about p:first-child {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    .text-about p:nth-child(2),
+    .text-about p:nth-child(3) {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .card-skill {
+        display: flex;
+        width: 78%;
+        margin: 50px auto;
+        justify-content: space-evenly;
+    }
+
+    .skill-1,
+    .skill-2 {
+        width: 450px;
+        height: 345px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 20px;
+        box-sizing: border-box;
+        text-align: center;
+        box-shadow: 2px 2px 10px grey;
+    }
+
+    .skill-1 div,
+    .skill-2 div {
+        width: 80px;
+        height: 40px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        color: #2f3640;
+    }
+
+    .skill-1 p:first-of-type,
+    .skill-2 p:first-of-type {
+        font-size: 14px;
+        color: black;
+        font-weight: 300;
+        /* font-weight: lighter; */
+        /* margin-top: 20px;
+        margin-bottom: 10px; */
+    }
+
+    .contact {
+        width: 100%;
+        height: 250px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact p {
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        margin-bottom: 13px;
+        line-height: 0px;
+        color: white;
+    }
+
+    .garis {
+        width: 390px;
+        height:15px;
+        border-bottom: 2px solid white;
+        margin-bottom: 10px;
+    }
+
+</style>
+
+<body>
+    <div class="container">
+        <!-- navbar -->
+        <div class="navbar">
+            <p>Kelompok 4</p>
+            <div class="nav-link">
+                <div><a href="web daerah.html">Beranda</a></div>
+                <div><a href="">Berita</a></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- hero img -->
+
+    <!-- about -->
+    <div class="about">
+        <img src="berdua.jpg" alt="gambar about">
+
+        <div class="text-about">
+            <p>Kasus Muhammad Kace, Penyidik Konfrontasi Keterangan Napoleon Bonaparte dengan Saksi</p>
+
+            <p>
+                Penyidik Direktorat Tindak Pidana Umum (Dittipidum) Badan Reserse Kriminal (Bareskrim) Polri, belum menetapkan
+                tersangka terkait kasus dugaan Napoleon Bonaparte melakukan penganiayaan kepada Muhamad Kasman alias Muhammad Kace, 
+                di Rutan Bareskrim Polri. Penyidik masih harus melakukan konfrontasi keterangan Napoleon dengan para saksi-saksi. <br><br>
+
+                "Belum (ditetapkan tersangka). Ada beberapa keterangan yang harus di konfrontasi," ujar Dirtipidum Bareskrim Polri
+                 Brigjen Pol Andi Rian Djajadi, saat dihubungi Beritasatu.com, Kamis (23/9/2021). Dikatakan Andi, penyidik rencananya 
+                 akan melakukan pemeriksaan kembali terhadap saksi-saksi untuk dikonfrontasi keterangannya. "Iya betul (pemeriksaan
+                saksi-saksi untuk dikonfrontasi)," ungkapnya. <br><br></p>
+
+        </div>
+    </div>
+
+
+    <div class="card-skill">
+        <div class="skill-1">
+            <p>Sebelumnya diketahui, Bareskrim Polri telah menerima satu laporan polisi (LP) yaitu, LP nomor: 0510/XIII/2021/Bareskrim,
+                tertanggal 26 Agustus 2021, atas nama pelapor Muhamad Kasman alias Muhammad Kace. Kasusnya, terkait dugaan penganiayaan 
+                dengan pelaku disebut sesama penghuni Rutan Bareskrim Polri. <br><br>
+                Belakangan diketahui, pelaku penganiayaan ternyata Irjen Napoleon Bonaparte. Mantan Kadiv Hubinter Polri itu ditahan atas 
+                perkara suap penghapusan nama Djoko Tjandra dari daftar red notice Interpol. <br><br>
+                </p>
+        </div>
+
+        <div class="skill-2">
+            <p> Selain melakukan penganiayaan berupa pemukulan, Napoleon juga melumuri wajah dan tubuh Kace dengan 
+                kotoran manusia. Dalam menjalankan aksinya, jenderal bintang dua itu dibantu tiga tahanan lain, salah satunya mantan 
+                panglima FPI Maman Suryadi. <br><br> Penyidik telah memeriksa Napoleon terkait kasus dugaan penganiayaan itu selama 10 jam, Selasa (21/9/2021). Seusai 
+                diperiksa, Napoleon langsung diisolasi. Dia tidak boleh keluar sel, kecuali untuk kepentingan penyidikan. <br><br> Selain Napoleon,
+                penyidik juga telah memeriksa 13 saksi termasuk Kece selaku pelapor. Dari 13 saksi tersebut, empat di antaranya petugas
+                 jaga tahanan, termasuk kepala Rutan Bareskrim Polri turut dimintai keterangan.</p>
+
+
+        </div>
+        </div>
+    </div>
+
+
+    <div class="contact">
+        <p>Sekian Terima Kasih</p>
+        <div class="garis"></div>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
